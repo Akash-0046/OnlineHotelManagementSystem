@@ -1,12 +1,12 @@
-package com.Inventory.InventoryMicroservices;
+package com.Staff.StaffMicroservices;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class InventoryController {
+public class StaffGreeting {
 	
-	@GetMapping("/inventory")
+	@GetMapping("/st")
 	public String helloworld() {
 		return "Hello World";
 	}

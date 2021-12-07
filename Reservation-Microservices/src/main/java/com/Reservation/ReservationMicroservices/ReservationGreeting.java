@@ -1,12 +1,12 @@
-package com.Room;
+package com.Reservation.ReservationMicroservices;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RoomController {
+public class ReservationGreeting {
 	
-	@GetMapping("/room")
+	@GetMapping("/reserve")
 	public String helloworld() {
 		return "Hello World";
 	}
