@@ -22,7 +22,7 @@ public class DepartmentController {
 	private DepartmentService service;
 
 	@GetMapping("/hello")
-	public String test() {
+	public String greeting() {
 		return "Hello I am From Department Microservice";
 	}
 	

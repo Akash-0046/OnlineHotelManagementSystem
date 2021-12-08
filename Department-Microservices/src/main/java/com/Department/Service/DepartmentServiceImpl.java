@@ -25,7 +25,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 	}
 
 	@Override
-	public Optional<Department> getDepartment(long parseLong) {
+	public Optional<Department> getDepartment(long id) {
 		// TODO Auto-generated method stub
 		return null;
 	}

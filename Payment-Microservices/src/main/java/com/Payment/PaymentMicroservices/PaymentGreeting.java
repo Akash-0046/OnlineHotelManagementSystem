@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PaymentController {
+public class PaymentGreeting {
 
-	@GetMapping("/payment")
+	@GetMapping("/pay")
 	public String helloworld() {
 		return "Hello World";
 	}

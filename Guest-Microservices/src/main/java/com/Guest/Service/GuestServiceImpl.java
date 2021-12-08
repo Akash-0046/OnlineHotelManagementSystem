@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.Guest.Model.Guest;
 import com.Guest.Repository.GuestRepo;
 import com.google.common.base.Optional;

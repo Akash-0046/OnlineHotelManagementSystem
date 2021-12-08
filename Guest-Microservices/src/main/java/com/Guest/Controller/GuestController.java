@@ -17,14 +17,14 @@ import com.google.common.base.Optional;
 
 @RestController
 @RequestMapping("/Guest")
-public class DepartmentController {
+public class GuestController {
 	
 	@Autowired
 	GuestService guestService;
 
 	@GetMapping("/message")
 	public String test() {
-		return "Hello I am From Microservice3";
+		return "Hello I am From Guest Microservice";
 	}
 	
 	@PostMapping("/addGuest")
