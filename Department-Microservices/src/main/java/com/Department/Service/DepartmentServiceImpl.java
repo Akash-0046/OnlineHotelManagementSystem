@@ -3,10 +3,13 @@ package com.Department.Service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.Department.Model.Department;
 import com.Department.Repository.DepartmentRepo;
 import com.google.common.base.Optional;
 
+@Service
 public class DepartmentServiceImpl implements DepartmentService {
 
 	@Autowired
