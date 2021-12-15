@@ -33,12 +33,10 @@ public class ManagerInventoryController {
 		return restTemplate.getForObject("http://Inventary-Microservice/Inventory/getByInv/"+id, Inventory.class);
 	}
 	
-	
 	@PostMapping("/addInv")
 	public Inventory addInventary(@RequestBody Inventory inv) {
 		return restTemplate.postForObject("http://Inventory-Microservice/Inventory/addInv/", inv, Inventory.class);
 	}
-	
 	
 	@PutMapping("/updateInv")
 	public Inventory updateInventary(@RequestBody Inventory inv) {
